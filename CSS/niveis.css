@@ -1,4 +1,19 @@
-container{
+.Container_nivel{
 align-items: center;
+text-align: center;
+}
+.Column{
+flex-direction: column;
+display: flex;
+margin-top: 150px;
+}
 
+.Input{
+    width: 200px;
+    align-self: center;
+    margin: 7px;
+}
+#Button{
+    width: 100px;
+    align-self: center;
 }

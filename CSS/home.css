@@ -1,4 +1,15 @@
 .container{
     align-items: center;
-    background-color: blueviolet;
+    text-align: center;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        background-image: url('../IMAGENS/Home.jpg');
+        background-repeat: no-repeat;
+        height: 100vh;
+        
+       
     }
