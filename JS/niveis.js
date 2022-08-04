@@ -1,1 +1,9 @@
-a
+let primeiroResultado = getElementByID = document.getElementById('primeiroResultado')
+let segundoResultado = getElementByID = document.getElementById('segundoResultado')
+let terceiroResultado = getElementByID = document.getElementById('terceiroResultado')
+let quartoResultado = getElementByID = document.getElementById('quartoResultado')
+let quintoResultado = getElementByID = document.getElementById('quintoResultado')
+let sextoResultado = getElementByID = document.getElementById('sextoResultado')
+let setimoResultado = getElementByID = document.getElementById('setimoResultado')
+let oitavoResultado = getElementByID = document.getElementById('oitavoResultado')
+let nonoResultado = getElementByID = document.getElementById('nonoResultado')
