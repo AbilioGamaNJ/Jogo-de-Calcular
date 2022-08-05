@@ -6,19 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nivel 1</title>
     <link rel="stylesheet" href="../CSS/niveis.css">
+    <link rel="shortcut icon" href="../IMAGENS/HelloKittyIcon.jpg" type="image/x-icon">
 </head>
+<style>
+   body {
+    background-image: url('../IMAGENS/NivelUm.jpg');
+    background-repeat: no-repeat;
+}
+</style>
 <body>
-    <div class="Container_nivel">
-        <img src="../IMAGENS//NivelDois.webp" alt="" srcset="">
-        <h1>Nivel 1</h1>
-        <div class="Column">
-            <h2>Quais números somados resultam em 7?</h2>
-            <input class="Input" type="X" id="X" placeholder="Digite um número">
-            <input class="Input" type="Y" id="Y" placeholder="Digite um número">
-            <button id="Button" onclick="Soma()">Calcular</button>
-        </div>
-
-    </div>
+    <div class="Container">
+    <h1>Nivel 1</h1>
+        <button onclick="nivelum()">Começar a diversão</button>
+        <p id="x"></p>
+        <p id="sinal"></p>
+        <p id="operacao"></p>
+        <p id="y"></p>
+       
+        <div id="divNumero"></div>
+        <p id="resultadoDaOperacao"></p>
+</div>
     <script src="../JS/niveis.js"></script>
 </body>
 </html>

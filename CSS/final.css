@@ -1,4 +1,8 @@
 container{
     align-items: center;
     
-    }
+}
+body {
+    background-image: url('../IMAGENS/Final.jpg');
+    background-repeat: no-repeat;
+}    
