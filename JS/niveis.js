@@ -7,6 +7,8 @@ let y = document.getElementById("y").innerHTML
 let operacao = document.getElementById("operacao").innerHTML
 let fase = document.getElementById("fase")
 var nivel = 1
+let fundos = ['NivelUm.jpg', 'NielDois.jpg','NivelTres.jpg','NivelQuatro.jpg','NivelCinco.jpg','NivelSeis.jpg','NivelSete.jpg','NivelOito.jpg','NivelNove.jpg','NivelTres,png']
+
 niveis()
 
 function niveis(){
@@ -35,17 +37,21 @@ function niveis(){
 
 }
 document.onkeyup = function (evento){
-    let tecla = (evento.key)
-    console.log(evento)
-    if(tecla == 'Enter'){
-    let resposta = Number(document.getElementById('inpNumero').value)
-        if(resposta == resultado2){
-            nivel++
-            fase.innerHTML = "Nivel " + `${nivel}`
-            window.alert('Correto');
-
-        }else{
-            alert('Errado')
+    if(nivel <10){
+        let tecla = (evento.key)
+        if(tecla == 'Enter'){
+        let resposta = Number(document.getElementById('inpNumero').value)
+            if(resposta == resultado2){
+                nivel++
+                fase.innerHTML = "Nivel " + `${nivel}`
+                window.alert('Correto');
+                niveis()
+                
+            }else{
+                alert('Errado')
+            }
         }
+    }else{
+        alert('parabens isis!')
     }
 }
