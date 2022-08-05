@@ -31,7 +31,6 @@ function niveis(){
     document.getElementById("sinal").innerHTML = operador
     document.getElementById("inpNumero").value = ""
     document.getElementById("inpNumero").focus()
-    document.getElementById("inpNumero").value = []
 
 
 }
