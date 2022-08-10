@@ -1,4 +1,4 @@
 function Iniciar() {
     
-    window.location.href="./Nivel.html"
+    window.location.href="./nivel.html"
 1}

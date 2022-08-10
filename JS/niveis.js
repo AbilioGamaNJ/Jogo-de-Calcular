@@ -55,7 +55,7 @@ document.onkeyup = function (evento){
                 if(nivel != 10){
                     niveis()
                 }else{
-                    window.location.href="./Final.html"
+                    window.location.href="./final.html"
                 }
             }else{
              alert('Errado')
